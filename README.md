@@ -9,7 +9,7 @@ The system is trained on a real-world medical dataset to provide highly accurate
 
 ![Description]([https://user-images.githubusercontent.com/62790398/125474884-71a047bf-2648-49ff-816d-907b1dc2b68a.png](https://github.com/Divyansh7041/Chronic-Kidney-Disease-Detection/blob/8ab94c816aa677fefd9335131c57c35ff5a91361/SS/Home1.png))
 
-![Predict]([https://github.com/user-attachments/assets/c44f14ea-d73c-4dea-8396-e295ca77ec11](https://github.com/Divyansh7041/Chronic-Kidney-Disease-Detection/blob/8ab94c816aa677fefd9335131c57c35ff5a91361/SS/Predict.png))
+![Predict](https://github.com/Divyansh7041/Chronic-Kidney-Disease-Detection/blob/8ab94c816aa677fefd9335131c57c35ff5a91361/SS/Predict.png)
 
 ![Healthy]([https://user-images.githubusercontent.com/62790398/125475302-8e02b5d8-d0b2-473b-b83e-f4d807dc0412.png](https://github.com/Divyansh7041/Chronic-Kidney-Disease-Detection/blob/8ab94c816aa677fefd9335131c57c35ff5a91361/SS/Absent.png))
 
