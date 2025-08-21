@@ -84,7 +84,7 @@ If you find it useful, please star ⭐ the repo.
 
 Explore more projects on my GitHub: [GitHub](https://github.com/Divyansh7041)
 
-Connect with me on LinkedIn: [LinkedIN](www.linkedin.com/in/divyansh-patel-2b0326248)
+Connect with me on LinkedIn: [LinkedIN](https://linkedin.com/in/venkata-sreeram)
 
 ## Author
 ### Divyansh Nandola 😊
