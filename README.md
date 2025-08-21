@@ -16,19 +16,19 @@ The system is trained on a real-world medical dataset to provide highly accurate
 ![image](https://github.com/user-attachments/assets/c44f14ea-d73c-4dea-8396-e295ca77ec11)
 
 
-Overview
+## Overview
 
-Built with Python (Flask framework) for the backend.
+- Built with Python (Flask framework) for the backend.
 
-Uses Machine Learning (XGBoost & other models) for CKD detection.
+- Uses Machine Learning (XGBoost & other models) for CKD detection.
 
-Dataset taken from Kaggle (Kidney Disease Dataset).
+- Dataset taken from Kaggle (Kidney Disease Dataset).
 
-Achieved an accuracy of 98.33%.
+- Achieved an accuracy of 98.33%.
 
-Includes a simple, interactive UI for entering patient health parameters.
+- ncludes a simple, interactive UI for entering patient health parameters.
 
-⚠️ Requires Python version: 3.8.10
+- ⚠️ Requires Python version: 3.8.10
 
 
 ## Steps to run this application in your system
@@ -68,23 +68,23 @@ The dataset was used from Kaggle.
 
 ## Troubleshooting
 
-If you face issues:
+- If you face issues:
 
-Ensure you are using Python 3.8.10
+- Ensure you are using Python 3.8.10
 
-Verify virtual environment activation
+- Verify virtual environment activation
 
-Reinstall dependencies if needed
+- Reinstall dependencies if needed
 
 ## Contribution & Support
 
-This project is intended for educational and research purposes.
+- This project is intended for educational and research purposes.
 
-If you find it useful, please star ⭐ the repo.
+- If you find it useful, please star ⭐ the repo.
 
-Explore more projects on my GitHub: [GitHub](https://github.com/Divyansh7041)
+- Explore more projects on my GitHub: [GitHub](https://github.com/Divyansh7041)
 
-Connect with me on LinkedIn: [LinkedIN](https://linkedin.com/in/divyansh-patel-2b0326248)
+- Connect with me on LinkedIn: [LinkedIN](https://linkedin.com/in/divyansh-patel-2b0326248)
 
 ## Author
 ### Divyansh Nandola 😊
