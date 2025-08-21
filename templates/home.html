@@ -1,0 +1,85 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+  <div class="alert alert-danger text-center mt-3">{{ message }}</div>
+{% endif %}
+
+<div class="container my-5">
+  <!-- Hero Section -->
+  <div class="bg-success text-white text-center p-5 rounded shadow">
+    <h1 class="display-4">Chronic Kidney Disease Prediction</h1>
+    <p class="lead">Predicting chronic kidney disease using machine learning for better early diagnosis and patient care.</p>
+  </div>
+
+  <!-- Info Cards -->
+  <div class="row mt-5">
+    <div class="col-md-6 mb-4">
+      <div class="card border-0 shadow h-100">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Random Forest</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Regression & Classification</h6>
+          <p class="card-text">Random Forest is a supervised learning algorithm that builds multiple decision trees and merges them to improve accuracy and stability.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <div class="card border-0 shadow h-100">
+        <div class="card-body">
+          <h5 class="card-title text-success">XGBoost</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Gradient Boosting Machine</h6>
+          <p class="card-text">XGBoost is a high-performance algorithm based on gradient boosting. It excels in structured data and is widely used in ML competitions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Highlights -->
+  <div class="row text-center my-5">
+    <div class="col-lg-4">
+      <img src="https://cdn.icon-icons.com/icons2/2593/PNG/512/data_icon_154512.png" class="mb-3" width="80">
+      <h4>Dataset</h4>
+      <p class="text-muted">Used Kaggle dataset with 400 records and 25 features relevant to CKD prediction. Applied preprocessing and analysis to prepare the data.</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://www.edureka.co/blog/wp-content/uploads/2019/01/Classification-Random-Forest-Random-Forest-In-R-Edureka-2-381x300.png" class="mb-3" width="80">
+      <h4>Algorithm</h4>
+      <p class="text-muted">Random Forest & XGBoost were used for accurate classification. Ensemble methods improved predictive performance.</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="https://cdn.pixabay.com/photo/2016/05/25/13/18/target-1414775_960_720.png" class="mb-3" width="80">
+      <h4>Accuracy</h4>
+      <p class="text-muted">Achieved an impressive accuracy of <strong>98%</strong> using optimized feature selection and fine-tuned parameters.</p>
+    </div>
+  </div>
+
+  <!-- Feature Sections -->
+  <hr class="my-5">
+
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <h3>How it Works</h3>
+      <p>This prediction model is suitable for integration into healthcare applications. It enables early detection by analyzing medical parameters. The project is deployed using Flask to allow real-time predictions through a user-friendly interface.</p>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <h3>Challenges Faced</h3>
+      <p>Some challenges included dataset inconsistencies, environment setup issues, and library compatibility (especially with Python and TensorFlow). These were resolved using clear documentation and version control.</p>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-12">
+      <h3>Future Enhancements</h3>
+      <p>As a solo developer, I plan to enhance this project by expanding prediction to other diseases, improving UI/UX, and deploying on cloud platforms with database support for better accessibility and scalability.</p>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="text-center my-5">
+    <a href="{{ url_for('kidneyPage') }}" class="btn btn-lg btn-primary shadow">Try the Prediction Tool</a>
+  </div>
+</div>
+
+{% endblock %}

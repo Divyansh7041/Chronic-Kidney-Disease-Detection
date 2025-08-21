@@ -1,0 +1,58 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <h2 class="text-success">Kidney Disease Predictor</h2>
+    <p class="text-muted">Enter patient details below to check for signs of chronic kidney disease.</p>
+  </div>
+
+  <div class="card shadow p-4">
+    <form action="{{ url_for('predictPage') }}" method="POST">
+      <div class="row g-3">
+        {% set fields = ['age','bp','al','su','rbc','pc','pcc','ba','bgr','bu','sc','pot','wc','htn','dm','cad','pe','ane'] %}
+        {% for field in fields %}
+        <div class="col-md-4">
+          <div class="form-group">
+            <input class="form-control border-secondary" type="text" name="{{ field }}" placeholder="{{ field|upper }}">
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="text-center mt-4">
+        <input type="submit" class="btn btn-primary px-5" value="Predict">
+      </div>
+    </form>
+  </div>
+
+  <!-- Sample Inputs -->
+  <div class="mt-5">
+    <h4 class="text-center text-secondary mb-3">Sample Inputs from Dataset</h4>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover text-center">
+        <thead class="table-success">
+          <tr>
+            <th>age</th><th>bp</th><th>al</th><th>su</th><th>rbc</th><th>pc</th><th>pcc</th><th>ba</th><th>bgr</th><th>bu</th>
+            <th>sc</th><th>pot</th><th>wc</th><th>htn</th><th>dm</th><th>cad</th><th>pe</th><th>ane</th><th>Disease</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24</td><td>100</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>136</td><td>60</td>
+            <td>1.9</td><td>3.7</td><td>9600</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>Present</td>
+          </tr>
+          <tr>
+            <td>68</td><td>80</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>157</td><td>162</td>
+            <td>9.6</td><td>4.9</td><td>11000</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>Present</td>
+          </tr>
+          <tr>
+            <td>51</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>121</td><td>27</td>
+            <td>0.8</td><td>3.7</td><td>8300</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Healthy</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
