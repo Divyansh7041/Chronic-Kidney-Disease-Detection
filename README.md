@@ -1,8 +1,9 @@
-# Chronic-Kidney-Disease-Prediction
+# Chronic Kidney Disease Detection
 
-This web application was developed using the **Flask** web framework. The predictive models were trained on comprehensive datasets, enabling high accuracy in predicting chronic kidney disease. 
+A Flask-based web application for detecting Chronic Kidney Disease (CKD) using machine learning models.
+The system is trained on a real-world medical dataset to provide highly accurate predictions, helping in early detection and awareness of CKD. 
 
-**Chronic-Kidney-Disease-Prediction**
+**Chronic-Kidney-Disease-Detection**
 
 ![image](https://user-images.githubusercontent.com/62790398/125474693-082d87df-953e-43d2-b175-08afd43ec9b0.png)
 
@@ -14,6 +15,20 @@ This web application was developed using the **Flask** web framework. The predic
 
 ![image](https://github.com/user-attachments/assets/c44f14ea-d73c-4dea-8396-e295ca77ec11)
 
+
+Overview
+
+Built with Python (Flask framework) for the backend.
+
+Uses Machine Learning (XGBoost & other models) for CKD detection.
+
+Dataset taken from Kaggle (Kidney Disease Dataset).
+
+Achieved an accuracy of 98.33%.
+
+Includes a simple, interactive UI for entering patient health parameters.
+
+⚠️ Requires Python version: 3.8.10
 
 
 ## Steps to run this application in your system
@@ -46,21 +61,31 @@ The dataset was used from Kaggle.
 
 ## Models with their Accuracy of Prediction
 
-| Disease        | Type of Model            | Accuracy |
-| -------------- | ------------------------ | -------- |
-| Kidney-Disease       | Machine Learning Model   | 98.33%   |
+| Task                   | Model Used | Accuracy |
+| ---------------------- | ---------- | -------- |
+| CKD Detection (Binary) | XGBoost ML | 98.33%   |
 
-## Are you facing issues in running the code?
 
-![image](https://github.com/user-attachments/assets/ec7a7b21-1cb2-4992-8869-6ba8d0dca728)
+## Troubleshooting
 
-![image](https://static.vecteezy.com/system/resources/previews/002/756/180/original/computer-error-screen-a-man-s-face-with-a-broken-facial-expression-is-floating-in-a-pop-up-window-hand-drawn-style-design-illustrations-vector.jpg)
+If you face issues:
 
-### Do Reach out to me at TopMate for 1:1 connect 👉🏻 [Kidney Disease Prediction project spport](https://topmate.io/venkata_sreeram/1113594)
-Last Tested: 28/07/2024
-## This will be useful for practicing machine learning.
-- If you like this Project - Give me a Star⭐
-- For more interesting Projects, Follow me on Github
-- [LinkedIN](https://linkedin.com/in/venkata-sreeram)
-#### Best regards:
-### Venkata Sreeram😊
+Ensure you are using Python 3.8.10
+
+Verify virtual environment activation
+
+Reinstall dependencies if needed
+
+## Contribution & Support
+
+This project is intended for educational and research purposes.
+
+If you find it useful, please star ⭐ the repo.
+
+Explore more projects on my GitHub: [GitHub](https://github.com/Divyansh7041)
+
+Connect with me on LinkedIn: [LinkedIN](www.linkedin.com/in/divyansh-patel-2b0326248)
+
+## Author
+###Divyansh Nandola 😊
+📅 Last Updated: 21/08/2025
